@@ -1,0 +1,140 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  background: #9133d5;
+}
+
+header {
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #9133d5;
+  padding: 20px 10px;
+  
+  
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+header a {
+  color: #ffffff;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #9a56d6;
+  color: #ffffff;
+}
+
+header a.active {
+  background-color: #9a56d6;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
+  img {
+    width: 150px; /* Задайте бажаний розмір */
+    height: auto; /* Зберігає пропорції зображення */
+    margin-top: 10px; /* Встановіть потрібний відступ від верхнього краю */
+    margin-left: 20px; /* Встановіть потрібний відступ зліва */
+    border-radius: 5px; /* Округлені кути */
+    text-align: left;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #9133d5;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.form{
+    margin: 100px auto;
+    width: 800px;
+    padding: 30px;
+    background: #483D8B;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    ;
+}
+
+.form input[type="text"]{
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    border: 2px solid #ADD8E6;
+    outline: none;
+    transition: .3s;
+}
+
+.form input[type="text"]:focus{
+    width: 300px;
+    border-color: #FF00FF
+}
+.form input[type="text"]::placeholder{
+    color: #fff;
+}
+
+img {
+    width: 150px; /* Задайте бажаний розмір */
+    height: auto; /* Зберігає пропорції зображення */
+    margin-top: 10px; /* Встановіть потрібний відступ від верхнього краю */
+    margin-left: 20px; /* Встановіть потрібний відступ зліва */
+    border-radius: 5px; /* Округлені кути */
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
+    font-style: italic;
+}
+
+button, input[type="button"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Зміна стилю кнопки при наведенні */
+button:hover, input[type="button"]:hover {
+    background-color: #b5bbc2;
+}

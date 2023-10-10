@@ -1,0 +1,61 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  background: #9133d5;
+}
+
+header {
+    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #9133d5 ;
+  padding: 20px 10px;
+  
+  
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+header a {
+  color: #ffffff;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #9a56d6;
+  color: #ffffff;
+}
+
+header a.active {
+  background-color: #9a56d6;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
+  img {
+    width: 150px; /* Задайте бажаний розмір */
+    height: auto; /* Зберігає пропорції зображення */
+    margin-top: 10px; /* Встановіть потрібний відступ від верхнього краю */
+    margin-left: 20px; /* Встановіть потрібний відступ зліва */
+    border-radius: 5px; /* Округлені кути */
+    text-align: left;
+}
