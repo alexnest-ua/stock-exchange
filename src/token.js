@@ -11,7 +11,7 @@ export async function getEthBalance(address) {
       .then(data => {
         console.log(data);
         if (data.status === '1' && data.message === 'OK') {
-            const balance = data.result * (10 ** 18);
+            const balance = data.result / Math.pow(10, 18);
             return balance;
         } else {
             throw new Error(data.message);

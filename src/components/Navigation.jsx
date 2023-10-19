@@ -1,12 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "./images/logo.png";
+import ConnectionButton from "./Connection.jsx";
 
 function Navigation() {
   return (
     <div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
+        
           <NavLink className="navbar-brand" to="/">
+          <img src={logo} alt="Logo" />
             Stock-exchange
           </NavLink>
           <div>
@@ -36,6 +40,9 @@ function Navigation() {
                 <NavLink className="nav-link" to="/SignUp">
                   Sign up
                 </NavLink>
+              </li>
+              <li className="nav-item">
+                <ConnectionButton />
               </li>
             </ul>
           </div>

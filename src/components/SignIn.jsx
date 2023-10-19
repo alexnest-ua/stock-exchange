@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./style.css";
-import logo from "./logo.png";
+import logo from "./images/logo.png";
 import detectEthereumProvider from '@metamask/detect-provider';
 import * as token from '../token.js';
 
@@ -76,9 +76,19 @@ const SignIn = () => {
 
   async function getEthereumBalance(currentAccount) {
     try {
-      const balance = await token.getEthBalance(currentAccount);
-      const balance_str = balance.toString()
-      showEthBalanceRef.current.innerHTML = balance_str.slice(0, balance_str.length - 4);
+      const balance_str = await window.ethereum.request({
+        "method": "eth_getBalance",
+        "params": [
+          currentAccount,
+          "latest"
+        ]
+      });
+      const balance = parseInt(balance_str);
+      const eth = (balance / Math.pow(10, 18))// parse to ETH
+      showEthBalanceRef.current.innerHTML = eth;
+      //const balance = await token.getEthBalance(currentAccount);
+      //const balance_str = balance.toString()
+      //showEthBalanceRef.current.innerHTML = balance_str.slice(0, balance_str.length - 4);
     } catch (error) {
       console.error(error);
     }
@@ -106,3 +116,4 @@ const SignIn = () => {
 }
 
 export default SignIn;
+
