@@ -1,0 +1,16 @@
+[
+    { "id": 1, "symbol": "WETH", "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6", "decimals": 18 },
+    { "id": 2, "symbol": "tUSDC", "address": "0xEEa85fdf0b05D1E0107A61b4b4DB1f345854B952", "decimals": 18 },
+    { "id": 3, "symbol": "tUSDT", "address": "0xFb7378D0997B0092bE6bBf278Ca9b8058C24752f", "decimals": 18 },
+    { "id": 4, "symbol": "WBTC", "address": "0x0B006ec0658f923df648E779aad6013A6f908ABF", "decimals": 8 },
+    { "id": 5, "symbol": "USDT", "address": "0xda33F19ea9F0c4f2859819d1F9493dE57A63FF30", "decimals": 6 },
+    { "id": 6, "symbol": "USDC", "address": "0x3B4C9A1CF549627d2Ff1ebfb6D384cE7c5E97Acc", "decimals": 6 },
+    { "id": 7, "symbol": "APE", "address": "0xe8681A49C3b543e63d8B54250472242032DF14b4", "decimals": 18 },
+    { "id": 8, "symbol": "MNT", "address": "0xc1dC2d65A2243c22344E725677A3E3BEBD26E604", "decimals": 18 },
+    { "id": 9, "symbol": "MAV", "address": "0x8Da04634564355B56DD8fA8a03B27f34D4cF8eBd", "decimals": 18 },
+    { "id": 10, "symbol": "LADYS", "address": "0x78110c9cb8F1315eD558404cdC62b0E4368091aD", "decimals": 18 },
+    { "id": 11, "symbol": "PEPE", "address": "0xe4621f5803B0cC0b1d4Ba42be50010e841669224", "decimals": 18 },
+    { "id": 12, "symbol": "LINK", "address": "0xA3862dB8E9E43154a2F1A348395828500589E4c6", "decimals": 18 },
+    { "id": 13, "symbol": "SAND", "address": "0xFFB05a60F7B901b0561B09c6a785445e8fcB35b6", "decimals": 24 },
+    { "id": 14, "symbol": "WIDE", "address": "0x80920B48664b45c8FD9C2f4201AcFf6249c72768", "decimals": 18 }
+]

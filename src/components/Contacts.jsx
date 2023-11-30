@@ -1,4 +1,5 @@
 import React from "react";
+import WalletContext from './WalletContext.js';
 
 function Contacts() {
   return (

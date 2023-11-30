@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import WalletContext from './WalletContext.js';
 
 function About() {
+  const context = useContext(WalletContext);
+
+  console.log("Context in Portfolio:", context);
+
   return (
     <div className="about">
       <div class="container">
